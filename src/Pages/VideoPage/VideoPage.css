@@ -1,0 +1,69 @@
+.VideoPageDiv{
+    width:100vw;
+    min-height:100vh;
+    background-color: rgba(0,0,0,0.91);
+    display: flex;
+    flex-direction: column;
+    color:aliceblue;
+    gap:1.5rem;
+}
+.VideoPageContainer1{
+    display: flex;
+    flex-direction: row;
+    gap:9rem;
+    margin-left: 0.7rem;
+}
+.VideoPageContainer2{
+    display: flex;
+    flex-direction:row;
+    gap:0.4rem;
+}
+.Straight-Line-3{
+    width:100vw;
+    background-color:grey;
+    height:0.005rem;
+    border-bottom:1px solid grey;
+    
+}
+.First-letter-div{
+    background-color:rgba(240, 248, 255, 0.811);
+    color: black;
+    width:2.5rem;
+    height:2.5rem;
+    border-radius: 50%;
+    margin-left: 0.7rem;
+}
+.First-letter{
+    justify-content: center;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.VideoPageContainer3{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+.VideoDisplay{
+    width:100vw;
+    height:25rem;
+}
+@media (max-width:600px){
+    .VideoDisplay{
+        width:30rem;
+        height:22rem;
+    }
+    .VideoPageContainer1{
+        display: flex;
+        flex-direction: row;
+        gap:0.5rem;
+        margin-left: 0.7rem;
+    }
+}
+@media (max-width:400px){
+    .VideoDisplay{
+        width:20rem;
+        height:17rem;
+        margin-top: 0;
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,73 @@
+.NavbarDiv{
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(0,0,0,0.888);
+    width:100vw;
+    height:2.8rem;
+    margin-top: 0.2rem;
+    justify-content:space-between;
+    border-bottom: 2px solid black;
+}
+.logoAndSettings{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+.Settings{
+    display: flex;
+    flex-direction: column;
+    gap:0.4rem;
+    justify-content: center;
+    padding-left: 0.4rem;
+}
+.horizontalLines{
+    width:1.3rem;
+    height:0.05rem;
+    background-color: rgba(169, 169, 169, 0.742);
+}
+.youtube-logo{
+    color:white;
+    display: flex;
+    flex-direction: row;
+}
+.youtube-logo>p{
+    margin-top: 0.6rem;
+}
+.youtube-logo>img{
+    margin-top: 0.5rem;
+}
+.Nav-btns-div{
+    display: flex;
+    flex-direction: row;
+    color:aliceblue;
+    gap:0.6rem;
+}
+.Nav-btns{
+    margin-top:0.9rem;
+}
+.NavbarDiv{
+    overflow-x: scroll;
+}
+.NavbarDiv::-webkit-scrollbar{
+    display: none;
+}
+.first-letter-div{
+    background-color:aliceblue;
+    color: black;
+    width:1.7rem;
+    height:1.7rem;
+    border-radius: 50%;
+    margin-top: 0.6rem;
+    margin-right: 0.3rem;
+}
+.first-letter{
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.signInBtn{
+    margin-top: 0.85rem;
+    margin-right: 0.3rem;
+    color:white;
+    background-color: black;
+    border: 1px solid rgba(0, 128, 255, 0.863);
+}

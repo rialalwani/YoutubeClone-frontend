@@ -1,0 +1,31 @@
+.WHLDiv{
+    display: flex;
+    flex-direction: row;
+}
+.WHLDiv1{
+    display: flex;
+    flex-direction: row;
+    gap:10rem;
+    background-color: rgba(0,0,0,0.91);
+    width:100vw;
+    height:fit-content;
+    padding-bottom: 30rem;
+    color: aliceblue;
+}
+.whl-video-grid{
+    display:flex;
+    flex-wrap: wrap;
+}
+.clrhistorybtn:active{
+    color:red;
+}
+@media (max-width:599px){
+    .WHLDiv1{
+        display: flex;
+        flex-direction: column;
+        gap:1.5rem;
+    }
+    .WHLDiv3 h3{
+        display: none;
+    }
+}

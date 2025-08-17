@@ -1,0 +1,9 @@
+.YourVideosDiv{
+    background-color: rgba(0,0,0,0.91);
+    color:aliceblue;
+    width:100vw;
+    min-height:100vh;
+    padding-top:0.7rem ;
+    padding-left: 0.5rem;
+    padding-bottom: 35rem;
+}

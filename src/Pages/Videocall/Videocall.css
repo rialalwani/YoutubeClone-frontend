@@ -1,0 +1,35 @@
+.lobby{
+    background:linear-gradient(to right, #000000, #001f3f, #0074d9a7);
+    width:100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.firsttext{
+    color:rgba(255, 255, 255, 0.66);
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.secondtext{
+    color:rgba(255, 255, 255, 0.66);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.room-no{
+    color:black;
+    background:rgba(240, 248, 255, 0.84);
+}
+.Joinbtn{
+    background-color: #001f3f;
+    color:aliceblue;
+}
+.room-no-label{
+    color:rgba(240, 248, 255, 0.84);
+}
+.videocallform{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap:0.5rem;
+}

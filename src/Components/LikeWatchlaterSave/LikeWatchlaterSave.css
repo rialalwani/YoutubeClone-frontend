@@ -1,0 +1,18 @@
+.ButtonsDiv{
+    display: flex;
+    flex-direction: row;
+    gap:0.8rem;
+}
+.IconDiv{
+    display: flex;
+    flex-direction: row;
+    gap:0.1rem; 
+}
+@media (max-width:600px){
+    .ButtonsDiv{
+        display: flex;
+        flex-direction: row;
+        gap:0.8rem;
+        overflow-x: scroll;
+    }
+}

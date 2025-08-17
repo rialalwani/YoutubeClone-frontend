@@ -1,0 +1,56 @@
+.DrawerSideBar{
+    width:14rem;
+    height:fit-content;
+    background-color:black;
+    position: absolute;
+    top:0rem;
+    z-index: 2;
+}
+.DrawerSideBarDiv{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    text-decoration: none;
+}
+.DrawerSideBarIconsDiv{
+    color:aliceblue;
+    gap:1rem;
+    display: flex;
+    flex-direction: row;
+}
+.DrawerSideBarIcons{
+    margin-left: 1rem;
+}
+.DrawerIconsText{
+    float: right;
+    margin-top: -0.1rem;
+}
+.Straight-Line{
+    background-color:rgba(128, 128, 128, 0.582);
+    width:14rem;
+    height:0.1rem;
+}
+.Subscribed-Channels-div{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    color:aliceblue;
+}
+.Subscribed-Channels-logo{
+    margin-left: 1rem;
+    width:2rem;
+    height:2rem;
+    background-color: grey;
+    color:white;
+    border-radius: 50%;
+}
+.Subscribed-Channels-div>p{
+    margin-top: -0.005rem;
+}
+.channel-first-letter{
+    text-align: center;
+    margin-top: 0.25rem;
+}
+.DrawerSideBarDiv>:hover{
+    background-color: rgba(128, 128, 128, 0.589);
+}

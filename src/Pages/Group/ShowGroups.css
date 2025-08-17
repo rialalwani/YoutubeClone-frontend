@@ -1,0 +1,50 @@
+.GroupsPage{
+    display: flex;
+    flex-direction: row;
+}
+.GroupsPageDiv1{
+    width:100vw;
+    min-height:100vh;
+    padding-bottom: 7rem;
+    background-color: black;
+    color:rgba(240, 248, 255, 0.815);
+}
+.GroupsDiv2{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap ;
+    gap:1rem;
+}
+.groupname{
+    display: flex;
+    flex-direction: row;
+    background-color: darkslategrey;
+}
+.groupdiv4{
+    display:flex;
+    flex-direction: row;
+    gap:3rem;
+}
+.groupeditbtns{
+    display:flex;
+    flex-direction: row;
+    gap:2.8rem;
+}
+.membersscrollbar{
+    height:3rem;
+    overflow-y: scroll;
+} 
+.membersscrollbar::-webkit-scrollbar{
+    display:none ;
+}
+.groupdiv3{
+    margin-left: 2rem;
+    padding: 2rem;
+    width:fit-content;
+    background-color:darkslategrey;
+}
+.members{
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+}

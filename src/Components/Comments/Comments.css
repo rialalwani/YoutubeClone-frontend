@@ -1,0 +1,23 @@
+.CommentsDiv{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.addCommentBox{
+    background-color: rgba(0, 0, 0, 0.158);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width:15rem;
+    margin-left: 0.3rem;
+    color:aliceblue;
+    border-bottom: 1px solid grey;
+}
+.addBtn{
+    background-color: rgba(0, 0, 0, 0.158);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:aliceblue;
+    border-bottom: 1px solid grey;
+}

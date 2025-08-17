@@ -1,0 +1,29 @@
+.LibraryDiv{
+    display: flex;
+    flex-direction: row;
+}
+.LibraryDiv1{
+    background-color: rgba(0,0,0,0.91);
+    width:100vw;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.Library-Page-division-line{
+    background-color: grey;
+    width:91vw;
+    height:0.1rem;
+}
+.LibraryDiv2{
+    margin-top:0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    color:aliceblue;
+    margin-left: 1rem;
+}
+.LibraryDiv3{
+    display:flex;
+    flex-wrap: wrap;
+}

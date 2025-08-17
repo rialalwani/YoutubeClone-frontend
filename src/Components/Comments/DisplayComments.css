@@ -1,0 +1,40 @@
+.EditAndDelete{
+    display: flex;
+    flex-direction: row;
+    gap:0.5rem;
+    color:rgba(0, 123, 255, 0.459);
+    margin-left: 0.3rem;
+}
+.EditCmntBox{
+    background-color: rgba(0,0,0,0.158);
+    color:aliceblue;
+    width:31rem;
+    border:1px solid aliceblue;
+}
+.EditBtn{
+    border:none;
+}
+.userandtime{
+    display: flex;
+    flex-direction: row;
+    gap:0.5rem;
+}
+.likeandtranslate{
+    display: flex;
+    flex-direction: row;
+    gap:0.8rem;
+}
+.translatediv{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.languagelist{
+    position: absolute;
+    margin-left: 3.5rem;
+    z-index:2;
+    margin-top:-2rem;
+}
+.showcomment{
+    z-index:1;
+}
